@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_group_crafting_infos.xsd" export_time="Mon Mar 19 16:59:38 2018" revision="1" export_branch="E:/branches/warhammer2/norsca/warhammer/binaries.x64" export_user="bob">
+<edit_uuid>dd536651-4599-41d3-9d79-37e1dd41cea1</edit_uuid>
+<campaign_group_crafting_infos record_uuid="{0dd59648-f014-4480-bbf5-c892f20d1b92}" record_timestamp="1521478771546" record_key="wh2_dlc09_ritual_tmbtmb_canopic_jars">
+<campaign_group>wh2_dlc09_ritual_tmb</campaign_group>
+<unique_resource>tmb_canopic_jars</unique_resource>
+</campaign_group_crafting_infos>
+<campaign_group_crafting_infos record_uuid="{bd465adb-b812-4ddc-8007-342c32091ef9}" record_timestamp="1521478771509" record_key="wh_feature_dwarfsdwf_oathgold">
+<campaign_group>wh_feature_dwarfs</campaign_group>
+<unique_resource>dwf_oathgold</unique_resource>
+</campaign_group_crafting_infos>
+</dataroot>

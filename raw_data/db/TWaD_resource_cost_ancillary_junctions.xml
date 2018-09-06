@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_resource_cost_ancillary_junctions>
+<root>
+<edit_uuid>80425acf-4a02-4aba-be7a-8d709abb1432</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{57625472-83f5-4fd1-a790-681ac7388b7c}</field_uuid>
+<primary_key>1</primary_key>
+<name>resource_cost</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>resource_costs</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{86f7c7e9-860a-430c-b8c0-476d5e3e3981}</field_uuid>
+<primary_key>1</primary_key>
+<name>ancillary</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>ancillaries</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

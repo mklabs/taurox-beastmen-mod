@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ancillary_salvage_resources.xsd" export_time="Thu Apr 12 15:43:05 2018" revision="3" export_branch="T:/branches/warhammer2/norsca/warhammer/binaries.x64" export_user="bob">
+<edit_uuid>5399f672-30e5-45b1-beb8-8f6ca266b8a5</edit_uuid>
+<ancillary_salvage_resources record_uuid="{e6143ed6-ba22-4cd2-a144-86c806560aa6}" record_timestamp="1523019487146" record_key="armour200">
+<category>armour</category>
+<min_uniqueness_score>200</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_legendary_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{67e8fc77-91fe-42ae-80b5-08f05bb15063}" record_timestamp="1523019487146" record_key="armour35">
+<category>armour</category>
+<min_uniqueness_score>35</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_uncommon_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{681e4820-814b-45c1-a325-bd06d7e2ab29}" record_timestamp="1523019487146" record_key="armour5">
+<category>armour</category>
+<min_uniqueness_score>5</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_common_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{6359b5e3-3178-40eb-879d-302c078d24ba}" record_timestamp="1523019487146" record_key="armour75">
+<category>armour</category>
+<min_uniqueness_score>75</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_rare_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{88ac0365-7bfb-4e61-9d86-f150b5aee9d0}" record_timestamp="1523019487145" record_key="enchanted_item200">
+<category>enchanted_item</category>
+<min_uniqueness_score>200</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_legendary_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{a2ff9ec8-cf13-44f6-ab74-184ca4990008}" record_timestamp="1523019487145" record_key="enchanted_item35">
+<category>enchanted_item</category>
+<min_uniqueness_score>35</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_uncommon_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{5aac8353-63ac-4355-a14e-95cf2dc756b2}" record_timestamp="1523019487145" record_key="enchanted_item5">
+<category>enchanted_item</category>
+<min_uniqueness_score>5</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_common_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{97166412-2702-4d80-87a3-ea55b1c2849c}" record_timestamp="1523019487145" record_key="enchanted_item75">
+<category>enchanted_item</category>
+<min_uniqueness_score>75</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_rare_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{ee7ae6ca-1647-442d-a65b-a9ce50c6e647}" record_timestamp="1523019487146" record_key="talisman200">
+<category>talisman</category>
+<min_uniqueness_score>200</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_legendary_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{7b499ff2-f7ce-4524-bc9f-1f4d917804a2}" record_timestamp="1523019487145" record_key="talisman35">
+<category>talisman</category>
+<min_uniqueness_score>35</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_uncommon_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{2d5b3d24-7ae0-4d00-bebb-c2c353b6f5cd}" record_timestamp="1523019487145" record_key="talisman5">
+<category>talisman</category>
+<min_uniqueness_score>5</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_common_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{9d1f468b-b087-47b9-be07-84c88f2228f0}" record_timestamp="1523019487145" record_key="talisman75">
+<category>talisman</category>
+<min_uniqueness_score>75</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_rare_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{11d9de5d-0676-4915-adc6-f504aff9676d}" record_timestamp="1523019487145" record_key="weapon200">
+<category>weapon</category>
+<min_uniqueness_score>200</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_legendary_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{f5749099-1e04-4a03-b361-f55e6452b7ce}" record_timestamp="1523019487146" record_key="weapon35">
+<category>weapon</category>
+<min_uniqueness_score>35</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_uncommon_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{f47ff6ed-aa1f-4a8b-a3fb-667390d18caf}" record_timestamp="1523019487146" record_key="weapon5">
+<category>weapon</category>
+<min_uniqueness_score>5</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_common_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+<ancillary_salvage_resources record_uuid="{34aaca07-0abc-492a-a762-8095d40c9ed7}" record_timestamp="1523019487146" record_key="weapon75">
+<category>weapon</category>
+<min_uniqueness_score>75</min_uniqueness_score>
+<salvage_resources>wh2_dlc10_dwf_scrap_rare_magic_item</salvage_resources>
+</ancillary_salvage_resources>
+</dataroot>

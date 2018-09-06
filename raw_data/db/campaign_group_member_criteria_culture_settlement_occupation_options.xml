@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_group_member_criteria_culture_settlement_occupation_options.xsd" export_time="Fri Feb 2 15:32:31 2018" revision="3" export_branch="T:/branches/warhammer2/norsca/warhammer/binaries.x64" export_user="bob">
+<edit_uuid>a7252e40-8a84-43a9-af60-5e95a76f8a52</edit_uuid>
+<campaign_group_member_criteria_culture_settlement_occupation_options record_uuid="{13c4c025-dba8-4b2b-a627-8ecfb25cd34b}" record_timestamp="1517585550429" record_key="wh_dlc08_raze_option_khorne">
+<culture_settlement_occupation_option>1963655228</culture_settlement_occupation_option>
+<member>wh_dlc08_raze_option_khorne</member>
+</campaign_group_member_criteria_culture_settlement_occupation_options>
+<campaign_group_member_criteria_culture_settlement_occupation_options record_uuid="{e7ae8fb3-3b35-49d7-ba60-994d4b9f06bb}" record_timestamp="1517585550501" record_key="wh_dlc08_raze_option_nurgle">
+<culture_settlement_occupation_option>1369123792</culture_settlement_occupation_option>
+<member>wh_dlc08_raze_option_nurgle</member>
+</campaign_group_member_criteria_culture_settlement_occupation_options>
+<campaign_group_member_criteria_culture_settlement_occupation_options record_uuid="{72e67213-0342-44ed-b2dd-482aa36ff3bb}" record_timestamp="1517585550466" record_key="wh_dlc08_raze_option_slaanesh">
+<culture_settlement_occupation_option>1824195232</culture_settlement_occupation_option>
+<member>wh_dlc08_raze_option_slaanesh</member>
+</campaign_group_member_criteria_culture_settlement_occupation_options>
+<campaign_group_member_criteria_culture_settlement_occupation_options record_uuid="{3d92eab0-05d3-4db5-a381-666132a6a15f}" record_timestamp="1517585550538" record_key="wh_dlc08_raze_option_tzeentch">
+<culture_settlement_occupation_option>1292694896</culture_settlement_occupation_option>
+<member>wh_dlc08_raze_option_tzeentch</member>
+</campaign_group_member_criteria_culture_settlement_occupation_options>
+</dataroot>

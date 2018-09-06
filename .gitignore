@@ -1,0 +1,17 @@
+binaries/
+
+raw_data/art
+raw_data/EmpireDesignData
+raw_data/terrain
+raw_data/warscape_asset_variation_db
+
+working_data/BattleTerrain
+working_data/campaigns
+working_data/EditorBrushes
+working_data/RigidModels
+working_data/terrain
+working_data/Terry
+working_data/Weather
+working_data/rules.bob
+
+retail/

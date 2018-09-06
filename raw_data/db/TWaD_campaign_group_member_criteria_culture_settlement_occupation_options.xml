@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_campaign_group_member_criteria_culture_settlement_occupation_options>
+<root>
+<edit_uuid>15523abe-c4cd-4dd9-a62b-f1be0cd042b1</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{91f36641-94e7-45a7-bc0f-7ea48bb3f925}</field_uuid>
+<primary_key>1</primary_key>
+<name>member</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>id</column_source_column>
+<column_source_table>campaign_group_members</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{d428bf1a-399c-4856-ae52-522849842f4a}</field_uuid>
+<primary_key>0</primary_key>
+<name>culture_settlement_occupation_option</name>
+<field_type>integer</field_type>
+<required>1</required>
+<column_source_column>id</column_source_column>
+<column_source_table>culture_settlement_occupation_options</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>
