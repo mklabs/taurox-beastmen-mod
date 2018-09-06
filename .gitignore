@@ -5,6 +5,7 @@ raw_data/EmpireDesignData
 raw_data/terrain
 raw_data/warscape_asset_variation_db
 
+working_data/db
 working_data/BattleTerrain
 working_data/campaigns
 working_data/EditorBrushes
@@ -15,3 +16,4 @@ working_data/Weather
 working_data/rules.bob
 
 retail/
+working_data/script/campaign/main_warhammer/mod/mk_lua_mod_log.txt

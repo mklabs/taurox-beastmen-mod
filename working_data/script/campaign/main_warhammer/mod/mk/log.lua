@@ -9,17 +9,22 @@ local function log(str)
   local prefix = str or '';
   appendToFile('[log.lua] Initializing a new logger (' .. prefix .. ')');
 
-  return function (...)
-    local output = '[' .. prefix .. '] ';
-    for i,v in ipairs(arg) do
-      local separator = ' ';
-      if i == 0 then
-        separator = '';
-      end;
+  -- return function (...)
+  --   local output = '[' .. prefix .. '] ';
+  --   for i,v in ipairs(arg) do
+  --     local separator = ' ';
+  --     if i == 0 then
+  --       separator = '';
+  --     end;
+  --
+  --     output = output .. separator .. tostring(v);
+  --   end;
+  --
+  --   appendToFile(output);
+  -- end;
 
-      output = output .. separator .. tostring(v);
-    end;
-
+  return function (msg)
+    local output = '[' .. prefix .. '] ' .. tostring(msg);
     appendToFile(output);
   end;
 end;

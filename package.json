@@ -1,0 +1,23 @@
+{
+  "name": "mod-beastmen",
+  "version": "0.0.4",
+  "description": "Custom Beastmen Faction (taurox)",
+  "keywords": [
+    "totalwar",
+    "rts",
+    "mod",
+    "modding",
+    "lua"
+  ],
+  "scripts": {
+    "test": "npm run test-mod && npm run test-battle",
+    "test-mod": "cd working_data/script/campaign/main_warhammer/mod && lua test/test.lua",
+    "test-battle": "cd working_data/script/campaign/main_warhammer/mod && lua test/test.battle.lua",
+    "mod": "cp retail/data/mod.pack ../data/mod.pack && cp imgs/thumbnail512.png ../data/mod.png",
+    "mod-logs": "tail -f ../mk_lua_mod_log.txt",
+    "mod-taurox-logs": "tail -f ../taurox_script_log.txt",
+    "logs": "tail -f ../taurox_script_log.txt ../mk_lua_mod_log.txt"
+  },
+  "author": "mklabs",
+  "license": "MIT"
+}

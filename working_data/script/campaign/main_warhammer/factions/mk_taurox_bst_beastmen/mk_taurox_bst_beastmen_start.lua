@@ -10,7 +10,6 @@
 --
 -- - cm: campaign_manager
 -- - core
--- - reposition_starting_lord_for_faction
 -- - set_up_rank_up_listener
 -- - chapter_mission
 --
@@ -27,10 +26,9 @@
 -- functions expected by CA.
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
-output('Faction script loaded for mk_taurox_bst_beastmen_start 1');
+-- output('Faction script loaded for mk_taurox_bst_beastmen_start 1');
 
 local mk = require('mk/index');
-local inspect = require('vendor/inspect');
 local log = mk.log('campaign:mk_taurox_bst_beastmen_start');
 local utils = mk.utils;
 local Quests = mk.Quests;
@@ -87,7 +85,7 @@ function start_faction()
   quests:setupRankupListerners();
   log('==== Beastman Children of Chaos setupRankupListerners ====');
 
-  local chosen_lord = utils.startFaction(cm, reposition_starting_lord_for_faction);
+  local chosen_lord = utils.startFaction(cm);
   log('==== Beastman Children of Chaos start done ====');
 
   log('Initing chapters');
