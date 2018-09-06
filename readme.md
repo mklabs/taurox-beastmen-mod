@@ -1,11 +1,11 @@
-# Beastmen Children of Chaos
+# Taurox Beastmen
 
 Beta.
 
 This mod implements a new Beastmen faction for the Mortal Empires campaign: the
 Children of Chaos.
 
-Headed by either Taurox the Brass bull, lead the ruthless herds of Beastmen,
+Headed by Taurox the Brass bull, lead the ruthless herds of Beastmen,
 dedicated to the spreading of your will to all lands of the Old World and
 beyond.
 
