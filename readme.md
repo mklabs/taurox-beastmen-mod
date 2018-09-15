@@ -1,9 +1,9 @@
 # Taurox Beastmen
 
-Beta.
-
 This mod implements a new Beastmen faction for the Mortal Empires campaign: the
 Children of Chaos.
+
+Status: Beta
 
 Headed by Taurox the Brass bull, lead the ruthless herds of Beastmen,
 dedicated to the spreading of your will to all lands of the Old World and
@@ -37,8 +37,8 @@ with custom and unique traits buffing minotaurs and Taurox himself, including
 rank7 skills.
 
 The quest for the Rune-Tortured Axes item is available at rank 8, and features
-a little battle in Drakwald Lumber Village (make sure to turn on Drakwald
-Lumber Village map mod, otherwise it'll fallback to Morghur's Stave of Corruption map).
+a little battle in [Drakwald Lumber Village][] (make sure to turn on Drakwald
+Lumber Village map mod, otherwise the quest battle might crash).
 
 **Faction & Lord traits**
 
@@ -72,7 +72,7 @@ slightly different than the main beastmen faction.
 
 # Chapter objectives
 
-For the moment, chapter objectives are following Morghur's one.
+For the moment, chapter objectives are following Khazraks's one.
 
 In future updates, custom chapter objectives should be implemented, following
 the expected path in early, mid, late-game.
@@ -82,14 +82,12 @@ position on the campaign map when one main chapter is completed, the following
 chapter should be picked from a set of chapter objectives that is tailored to
 the region.
 
-## todo list
+## Known Issues
 
-
-- Ghorros: New legendary lord
-- 3 more quest battles, 1 for Taurox. 2 for Ghorros.
-- Brass armour to add as legendary item for Taurox.
-- Final quest battle to implement, should follow the Fall of Man battle.
-- Custom chapter objectives for both.
-- Fixing bugs
+- Portraits on campaign maps are missing
+- Portholes not appearing in battle screen
+- Black loading screen when loading up a game
+- Battle quest might crash when [Drakwald][] map is missing.
+- Bestial rage bar is missing, so no army spawn.
 
 [Drakwald]: https://steamcommunity.com/sharedfiles/filedetails/?id=1303149154

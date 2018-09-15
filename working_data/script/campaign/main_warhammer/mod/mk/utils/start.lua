@@ -20,12 +20,12 @@ local function start(cm)
   cm:reposition_starting_character_for_faction(TAUROX_FACTION, TAUROX_FORENAME, TAUROX_FORENAME, TAUROX_POS_X, TAUROX_POS_Y);
   local taurox_is_chosen_lord = cm:reposition_starting_character_for_faction(TAUROX_FACTION, TAUROX_FORENAME, 'names_name_2147357951', TAUROX_POS_X - 2, TAUROX_POS_Y + 2); -- second army
 
-  log('Taurox is chosen lord' .. tostring(taurox_is_chosen_lord));
+  log('Taurox is chosen lord: ' .. tostring(taurox_is_chosen_lord));
   local chosen_lord = '';
   if taurox_is_chosen_lord then
     log('Taurox is the lord');
     chosen_lord = TAUROX_FORENAME;
-    cm:force_declare_war('wh_main_grn_top_knotz', TAUROX_FACTION, false, false);
+    cm:force_declare_war('wh_main_emp_hochland', TAUROX_FACTION, false, false);
   else
     cm:force_declare_war('wh_main_teb_estalia', TAUROX_FACTION, false, false);
   end;

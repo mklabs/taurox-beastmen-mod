@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="units_custom_battle_permissions.xsd" export_time="mer. avr. 4 20:27:06 2018" revision="367" export_branch="C:/Program Files (x86)/Steam/steamapps/common/Total War WARHAMMER II/assembly_kit/binaries" export_user="assembly.kit">
-<edit_uuid>288bb60d-3cc9-4391-b90c-604d09da286f</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="units_custom_battle_permissions.xsd" export_time="ven. sept. 7 19:12:41 2018" revision="368" export_branch="D:/Steam/steamapps/common/Total War WARHAMMER II/assembly_kit/binaries" export_user="assembly.kit">
+<edit_uuid>0322a69a-3d80-41fc-8678-3bd24f20f340</edit_uuid>
 <units_custom_battle_permissions record_uuid="{c451150f-a835-4372-aa2d-a120633858c0}" record_timestamp="1522866426262" record_key="mk_taurox_bst_ghorrosmk_taurox_bst_beastmentrue">
 <faction>mk_taurox_bst_beastmen</faction>
 <general_portrait state="NOT_APPROVED" last_approved_text="" last_edit_user="mk" last_edit_date="2018-04-04T20:27:06" requires_translation="false" requires_recording="false">ui/portraits/portholes/wh_dlc03_bst_beastmen/bst_ch_khazrak_0.png</general_portrait>
@@ -11,9 +11,9 @@
 <siege_unit_defender>1</siege_unit_defender>
 <unit>mk_taurox_bst_ghorros</unit>
 </units_custom_battle_permissions>
-<units_custom_battle_permissions record_uuid="{a6ba2cb2-8adf-4925-90ca-2ccfd2dc22ed}" record_timestamp="1522795846689" record_key="mk_taurox_bst_tauroxmk_taurox_bst_beastmentrue">
+<units_custom_battle_permissions record_uuid="{a6ba2cb2-8adf-4925-90ca-2ccfd2dc22ed}" record_timestamp="1536340361286" record_key="mk_taurox_bst_tauroxmk_taurox_bst_beastmentrue">
 <faction>mk_taurox_bst_beastmen</faction>
-<general_portrait>ui/portraits/portholes/wh_dlc03_bst_beastmen/bst_gorebulls_campaign_03_0.png</general_portrait>
+<general_portrait state="NOT_APPROVED" last_approved_text="" last_edit_user="mk" last_edit_date="2018-09-07T19:12:41" requires_translation="false" requires_recording="false">ui/portraits/units/mk_taurox_bst_beastmen/mk_taurox_bst_taurox.png</general_portrait>
 <general_uniform>wh_dlc03_uniform_bst_gorebull_03</general_uniform>
 <general_unit>1</general_unit>
 <set_piece_character>wh_dlc03_bst_cha_gorebull_0</set_piece_character>
