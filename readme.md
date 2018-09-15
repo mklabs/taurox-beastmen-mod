@@ -37,7 +37,7 @@ with custom and unique traits buffing minotaurs and Taurox himself, including
 rank7 skills.
 
 The quest for the Rune-Tortured Axes item is available at rank 8, and features
-a little battle in [Drakwald Lumber Village][] (make sure to turn on Drakwald
+a little battle in [Drakwald][] Lumber Village (make sure to turn on [Drakwald][]
 Lumber Village map mod, otherwise the quest battle might crash).
 
 **Faction & Lord traits**
