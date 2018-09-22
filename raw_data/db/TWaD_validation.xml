@@ -205,12 +205,12 @@
 <uuid name="battle_set_piece_armies_junctions">5f0a46fe-fa39-4f83-b20d-97d351a44299</uuid>
 <uuid name="battle_set_piece_armies_skills_junctions">6e86c473-ceb6-4b97-80cd-f8dd70c581da</uuid>
 <uuid name="battle_set_piece_armies_units">c1977199-2035-46c3-bb18-befbae94bc0c</uuid>
-<uuid name="battle_set_piece_armies_units_junctions">4bf4df6d-7158-4a1a-a25f-3bccf6e9c8a7</uuid>
+<uuid name="battle_set_piece_armies_units_junctions">277b74dd-3e65-4ca2-9fda-b8b5a464433f</uuid>
 <uuid name="battle_set_piece_campaign_battle_scene_view_configurations">c4835142-177d-402e-87f5-ec27d79b8bbc</uuid>
 <uuid name="battle_set_piece_campaign_battle_scenes">39fc8659-d8ad-4e20-94ca-9635cabe0b54</uuid>
 <uuid name="battle_set_piece_frontend_groups">baed3ecf-4f3e-4ad3-834a-d11cbb40d39b</uuid>
 <uuid name="battle_set_piece_frontend_groups_to_characters">6655d032-e16e-41c2-8184-5e0f8a8625b6</uuid>
-<uuid name="battle_set_pieces">a111637b-e821-43f5-9079-10d086e265d1</uuid>
+<uuid name="battle_set_pieces">d9c1d116-8de2-45ea-98db-cdf6ddfc00da</uuid>
 <uuid name="battle_siege_vehicle_permissions">5a1858d3-e19a-4768-bd85-9b05fe8f1486</uuid>
 <uuid name="battle_skeletons">5b9f5a31-6c6e-438d-b265-5e72f9079e7b</uuid>
 <uuid name="battle_skeletons_locomotion_enums">9243c73d-0996-47f4-a895-4bb0d716fd5e</uuid>
@@ -658,7 +658,7 @@
 <uuid name="character_skill_nodes_skill_locks">92aba4e8-3f14-4dd9-832a-726e2fe103af</uuid>
 <uuid name="character_skill_utilization_hints">890a2f77-a21c-4c42-be15-993a8e553699</uuid>
 <uuid name="character_skill_utilization_hints_junctions">f43fcaed-2b3f-4b72-bd99-1ba607fce25f</uuid>
-<uuid name="character_skills">6cd97133-2fb5-4c21-a293-16bc46d24a7a</uuid>
+<uuid name="character_skills">a7ca1d3c-89a3-4f86-a50c-e7367255b13c</uuid>
 <uuid name="character_skills_to_quest_ancillaries">3d2fde96-170b-49e6-b527-b24d57da7250</uuid>
 <uuid name="character_trait_levels">e052b7ad-53d8-4662-a04e-91941453be70</uuid>
 <uuid name="character_traits">fc4981a8-4414-4c18-b6b3-c227314c8536</uuid>

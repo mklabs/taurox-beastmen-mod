@@ -1,15 +1,22 @@
 load_script_libraries();
 
+out('Battle script loaded for taurox rune tortured axes');
+out('Loaded script libraries');
+
 bm = battle_manager:new(empire_battle:new());
 gc = generated_cutscene:new(true);
 
+out('bm created');
+
 gb = generated_battle:new(
-	false,                                      -- screen starts black
-	false,                                      -- prevent deployment for player
-	false,                                      	-- prevent deployment for ai
-	function() gb:start_generated_cutscene(gc) end, 	-- intro cutscene function
-	false                                      	-- debug mode
+  false,                                      -- screen starts black
+  false,                                      -- prevent deployment for player
+  false,                                        -- prevent deployment for ai
+  function() gb:start_generated_cutscene(gc) end,   -- intro cutscene function
+  false                                        -- debug mode
 );
+
+out('cutscenes created');
 
 local subtitles = {
   { orbit = 'gc_orbit_90_medium_commander_front_close_low_01', duration = 4000 },
@@ -27,8 +34,10 @@ local subtitles = {
   { orbit = 'gc_orbit_90_medium_commander_front_close_low_01', duration = 7000 }
 };
 
+out('subtitles array done');
+
 for i, sub in ipairs(subtitles) do
-  output('Adding subtitle');
+  out('Adding subtitle');
 
   local key = sub.sub;
   local duration = sub.duration;
@@ -41,7 +50,11 @@ for i, sub in ipairs(subtitles) do
   end;
 end
 
+out('Subtitles added');
+
 gb:set_cutscene_during_deployment(true);
 gb:set_objective_on_message('deployment_started', 'wh_main_qb_objective_attack_defeat_army');
 ga_ai = gb:get_army(gb:get_non_player_alliance_num(), 1);
 gb:queue_help_on_message('battle_started', 'wh_dlc03_qb_bst_malagor_the_dark_omen_icon_of_vilification_stage_3_hint_objective');
+
+out('Battle script done');

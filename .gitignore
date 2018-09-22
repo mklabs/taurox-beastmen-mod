@@ -17,3 +17,5 @@ working_data/rules.bob
 
 retail/
 working_data/script/campaign/main_warhammer/mod/mk_lua_mod_log.txt
+md2bb/
+node_modules/

@@ -34,14 +34,14 @@ local Quests = {
 };
 
 function Quests:new(cm, core, set_up_rank_up_listener)
-	local quest = {};
-	setmetatable(quest, self);
-	self.__index = self;
+  local quest = {};
+  setmetatable(quest, self);
+  self.__index = self;
 
-	quest.cm = cm;
+  quest.cm = cm;
   quest.core = core;
   quest.set_up_rank_up_listener = set_up_rank_up_listener;
-	return quest;
+  return quest;
 end;
 
 function Quests:addTauroxQuestBattleListener()
@@ -92,19 +92,19 @@ end;
 
 
 function Quests:setupRankupListerners()
-	log('Quests setupRankupListerners()');
+  log('Quests setupRankupListerners()');
   local set_up_rank_up_listener = self.set_up_rank_up_listener;
 
-	local taurox_subtype = 'mk_taurox_bst_taurox';
-	local ghorros_subtype = 'mk_taurox_bst_ghorros';
+  local taurox_subtype = 'mk_taurox_bst_taurox';
+  local ghorros_subtype = 'mk_taurox_bst_ghorros';
 
-	-- type, ancillary key, mission key, rank required, [optional] mission key if playing MPC
-	local taurox_quests = {
-		{ 'mission', 'mk_taurox_anc_weapon_rune_tortured_axe', 'mk_taurox_bst_taurox_dual_cleaver_stage1', 7 }
-	};
+  -- type, ancillary key, mission key, rank required, [optional] mission key if playing MPC
+  local taurox_quests = {
+    { 'mission', 'mk_taurox_anc_weapon_rune_tortured_axe', 'mk_taurox_bst_taurox_dual_cleaver_stage1', 5 }
+  };
 
   log('Setting up Taurox quest to unlock at rank', 7, 'with', 'mk_taurox_bst_taurox_dual_cleaver_stage1');
-	set_up_rank_up_listener(taurox_quests, taurox_subtype);
+  set_up_rank_up_listener(taurox_quests, taurox_subtype);
 end;
 
 return Quests;
